@@ -48,7 +48,7 @@ public class CreateField {
             int x =scanner.nextInt();
             chars[x][y] = chars1[x][y];
             numberOfBreak= print(chars);
-            if (numberOfBreak >=4){
+            if (numberOfBreak >=20){
                 System.out.println("You are win");
                 print(chars1);
             }
